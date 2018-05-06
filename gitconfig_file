@@ -1,0 +1,55 @@
+[user]
+	name = cracker8090com
+	email = xubeiping0930@gmail.com
+[core]
+	editor = vim
+	safecrlf = true
+	quotepath = false
+	#autocrlf = input
+[color]
+    ui = true
+[pull]
+	rebase = true
+[merge]
+    ff = no
+[rebase]
+	stat = true
+[diff]
+    tool = vimdiff
+
+[alias]
+    df = diff
+    mg = merge --no-ff
+    co = checkout
+    ci = commit
+    cmt = commit -avm
+    cia = commit --amend
+    fe = fetch -n
+    pl = pull --rebase
+    ps = push
+    cp = cherry-pick
+    rb = rebase
+    new = diff HEAD~...HEAD
+    see = log -p -n 1
+    rc = rebase --continue
+    ri = rebase -i
+    mt = mergetool
+    br = branch
+    rh = reset --hard
+    rf = rebase FETCH_HEAD
+    rs = reset --soft
+    rsh1 = reset --soft HEAD~
+    st = status
+    sb = submodule
+    su = submodule update --recursive --init
+    check = clean -xdfn
+    stu = status -uno
+    cc = cherry-pick --continue
+    log = log --shortstat
+    slog = shortlog
+    graph = log --pretty=fuller --graph
+    ls = log --stat
+    lo = !git --no-pager log --oneline --decorate
+    last = !git --no-pager log -n 1
+
+
