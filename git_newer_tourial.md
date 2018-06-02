@@ -12,4 +12,6 @@ vscode中找到设置
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   修改为git\bin\bash.exe
 
-    
+
+git status中文显示异常
+	git config --global core.quotepath false
